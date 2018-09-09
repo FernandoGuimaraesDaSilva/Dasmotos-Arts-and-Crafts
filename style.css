@@ -1,0 +1,68 @@
+body {
+}
+
+img {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+body > img {
+	margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("Images/Pattern.jpeg");
+}
+
+h2 {
+  font-family: "Helvetica";
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  clear: left;
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+h2#brushes-heading {
+  background-color: mediumspringgreen;
+}
+
+h2#frames-heading {
+  background-color: lightcoral;
+}
+
+h2#paint-heading {
+  background-color: skyblue;
+}
+
+h2#pottery-heading {
+	background-color: sandybrown;
+}
+
+div.main-ct {
+  position: relative;
+  background-color: red;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+div.main-ct div.fixed-ct {
+  /* Become fixed when element at this y-position from the top */
+  position: sticky;
+  top: 50px;
+}
+
+div.main-ct div.fixed-ct p {
+  /* Stop at this many pixels from the bottom of the image */
+  padding-bottom: 20px;
+  /* Start at (-) this many pixels down from where the <p> would have been (going into the <img>) */
+  margin-bottom: -80px;
+}
