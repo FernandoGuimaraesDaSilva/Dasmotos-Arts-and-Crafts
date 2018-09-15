@@ -24,7 +24,7 @@ nav p {
   margin-right: 0;
 }
 
-img {
+div > img, body > img {
   float: left;
 }
 
@@ -91,3 +91,9 @@ div.main-ct div.fixed-ct p {
   /* Start at (-) this many pixels down from where the <p> would have been (going into the <img>) */
   margin-bottom: -80px;
 }
+
+button { position: relative; }
+button img { position: absolute; top: 15px;}
+button img:nth-child(1) {left: 40px; }
+button img:nth-child(3) {right: 40px;}
+
