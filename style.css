@@ -1,27 +1,27 @@
-html, body {font-size: 100%;}
+html, body {font-size: 100%; height: 100%; }
+
 nav {
   text-align: right;
   font-size: 0;
+  background-color: black;
+  color: white;
 }
 
 nav * {
   font-size: 2.5vw;
   display: inline-block;
-  padding: 0;
-  margin: 2.5% auto;
+  margin: 2.5%;
+  padding: auto 5%;
 }
 
 nav a {
   text-align: center;
   text-decoration: none;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin: 2.5%;
 }
 
 nav p {
   float: left;
-  margin-left: 0%;
-  margin-right: 0%;
 }
 
 div > img, body > img {
@@ -57,21 +57,13 @@ h2 {
   padding-left: 10px;
 }
 
-h2#brushes-heading {
-  background-color: mediumspringgreen;
-}
+h2#brushes-heading { background-color: mediumspringgreen; }
 
-h2#frames-heading {
-  background-color: lightcoral;
-}
+h2#frames-heading { background-color: lightcoral; }
 
-h2#paint-heading {
-  background-color: skyblue;
-}
+h2#paint-heading { background-color: skyblue; }
 
-h2#pottery-heading {
-	background-color: sandybrown;
-}
+h2#pottery-heading { background-color: sandybrown; }
 
 div.main-ct {
   position: relative;
@@ -100,8 +92,8 @@ body > p {
   font-size: 1em;
 }
 
-button { position: relative; }
-button img { position: absolute; top: 15px;}
-button img:nth-child(1) {left: 40px; }
-button img:nth-child(3) {right: 40px;}
+button { display: block; clear: left; position: relative; width: 18.5%;}
+button img { position: absolute; top: 35%;} 
+button img:nth-child(1) {left: 20%; }
+button img:nth-child(3) {right: 20%;}
 
