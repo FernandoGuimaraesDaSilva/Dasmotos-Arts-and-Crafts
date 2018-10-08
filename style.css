@@ -4,7 +4,7 @@ p {
   font-size: 1.5vw;
 }
 
-img {
+img:not(footer img) {
   clear: left;
   float:left;
 }
@@ -127,4 +127,14 @@ button img:nth-child(1) {left: 10%; }
 button img:nth-child(3) {right: 10%;}
 button p { font-size: 1.5em; }
 
+footer {
+  background-color: slategrey;
+  width: 100%;
+  padding: 3%;
+}
+
+footer img {
+  width: 10%;
+  display: inline-block;
+}
 
