@@ -17,8 +17,8 @@ nav {
   background-color: black;
   position: fixed;
   width: 100%;
-  top: 10px;
-  margin: -1% -.6%;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
