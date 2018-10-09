@@ -4,10 +4,12 @@ p {
   font-size: 1.5vw;
 }
 
-img:not(footer img) {
+img {
   clear: left;
-  float:left;
+  float: left;
 }
+
+/* Navigation Element Styles */
 
 nav {
   text-align: right;
@@ -16,7 +18,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 10px;
-  margin: -10px;
+  margin: -1% -.6%;
   z-index: 2;
 }
 
@@ -37,9 +39,7 @@ nav p {
   float: left;
 }
 
-div > img, body > img {
-  float: left;
-}
+/* */
 
 body > img, div.main-ct {
   margin-bottom: 1.5%;
@@ -69,6 +69,10 @@ h2 {
   clear: left;
   margin: 0;
   padding-left: 10px;
+}
+
+h3 {
+  font-size: 1.5vw;
 }
 
 
@@ -103,10 +107,6 @@ div.main-ct div.fixed-ct p {
   margin-bottom: -80px;
 }
 
-h3 {
-  font-size: 1.5vw;
-}
-
 
 /* Button Styles */
 
@@ -127,13 +127,19 @@ button img:nth-child(1) {left: 10%; }
 button img:nth-child(3) {right: 10%;}
 button p { font-size: 1.5em; }
 
+
+/* Footer Styles */
+
 footer {
   background-color: slategrey;
-  width: 100%;
+  box-sizing: border-box;
+  width: 101.25%;
   padding: 3%;
+  margin-left: -.75%;
 }
 
 footer img {
+  float: none;
   width: 10%;
   display: inline-block;
 }
