@@ -114,18 +114,20 @@ button {
   display: block; 
   clear: left; 
   position: relative; 
-  width: 15%; 
+  width: 18.5%; 
   text-align: center; 
   margin: 5% 0;
 }
+
+button p {
+  font-size: 1.5em;
+}
+
 button img {
-  width: 20%; 
-  position: absolute; 
-  top: 35%;
-} 
-button img:nth-child(1) {left: 10%; }
-button img:nth-child(3) {right: 10%;}
-button p { font-size: 1.5em; }
+  float: none;
+  vertical-align: middle;
+  height: 1em; 
+}
 
 
 /* Footer Styles */
