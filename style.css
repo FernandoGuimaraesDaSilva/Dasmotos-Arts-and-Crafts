@@ -54,6 +54,9 @@ h1 {
   text-align: center;
   background-image: url("Images/Pattern.jpeg");
   background-size: cover;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-right: 1.5%;
 }
 h2 {
   font-family: "Helvetica";
@@ -61,12 +64,11 @@ h2 {
   font-weight: bold;
   color: white;
   clear: left;
-  margin: 0;
   padding-left: 10px;
 }
 h2::before {
   display: block;
-  content: " ";
+  content: "";
   margin-top: -105px;
   height: 105px;
   visibility: hidden;
